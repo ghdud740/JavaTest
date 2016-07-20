@@ -18,7 +18,7 @@ public class CustomDateFormat {
 				String smin = String.format("%02d",min);
 				int sec = calendar.get(Calendar.SECOND);
 				int amPm = calendar.get(Calendar.AM_PM);
-				String sampm = amPm == Calendar.AM ? "����" : "����";
+				String sampm = amPm == Calendar.AM ? "오전" : "오후";
 				String today = year+"/" + smonth+"/"+sday+"/"+sampm+" "
 				+shour+":"+min+":"+sec;
 				
